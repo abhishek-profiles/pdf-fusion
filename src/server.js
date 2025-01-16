@@ -7,7 +7,7 @@ const multer = require("multer");
 const { merging } = require("./merged");
 const upload = multer({ dest: path.join(__dirname, "../uploads") });
 
-const port = 8000;
+const port = 3000;
 
 app.use("/static", express.static(path.join(__dirname, "../downloads")));
 
