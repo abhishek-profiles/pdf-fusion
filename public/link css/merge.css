@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #9a93ac;
+
+    margin: 15%;
+    background-image: url('../image/moon3.jpg');
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+.FIRST {
+    text-align: center;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.si {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    text-align: right;
+
+    background-color: #4285f4;
+}
+
+.sub {
+
+
+    font-family: Georgia;
+
+    font-size: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}

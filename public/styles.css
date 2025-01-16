@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./image/moon2.jpg);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+
+  text-align: right;
+  padding: 14px 16px;
+
+  font-size: 100%;
+  color: white;
+}
+
+.navbar li:hover {
+  background-color: #cacaca;
+  color: black;
+}
+
+.info {
+  margin-top: 10%;
+  text-align: center;
+ height: 450px;
+
+
+ 
+
+  
+}
+
+.merg {
+  -webkit-border-radius: 55;
+  -moz-border-radius: 55;
+  border-radius: 55px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #e52127;
+  padding: 8px 31px 13px 22px;
+  text-decoration: none;
+  
+  
+}
+
+.merg:hover {
+  background: #3cb6fc;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  margin: 1%;
+}
+
+.convert {
+  -webkit-border-radius: 55;
+  -moz-border-radius: 55;
+  border-radius: 55px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4ad221;
+  padding: 8px 31px 13px 22px;
+  text-decoration: none;
+  
+}
+
+.convert:hover {
+  background: #2d20a1;
+  text-decoration: none;
+}
+
+.compress {
+  -webkit-border-radius: 55;
+  -moz-border-radius: 55;
+  border-radius: 55px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #c30ed0;
+  padding: 8px 31px 13px 22px;
+  text-decoration: none;
+  
+}
+
+.compress:hover {
+  background: #22c0d8;
+  text-decoration: none;
+}
+
+.footer {
+  writing-mode: vertical-lr; /* Rotate the text vertically */
+  text-align: center;
+  
+  color: transparent;
+  padding: 10px;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.footer .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  text-align: center;
+  padding-bottom: 25px;
+  color: #ff71eb;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid rgb(204, 204, 204);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  background: #8377f1;
+  text-decoration: none;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.list ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  color: #ee3232;
+}
+
+.list ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.list ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.list ul a:hover {
+  opacity: 1;
+}
+
