@@ -9,10 +9,8 @@ const merging = async (pdfPaths) => {
   }
 
   const timestamp = new Date().getTime();
-  const outputPath = path.join(
-    "/Users/DRIVE/PROGRAM/Pratical/downloads",
-    `${timestamp}.pdf`
-  );
+  const outputPath = path.join(__dirname, "../downloads", `${timestamp}.pdf`);
+
 
   await merger.save(outputPath);
 

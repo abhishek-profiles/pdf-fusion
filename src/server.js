@@ -1,11 +1,11 @@
-// nodemon /Users/DRIVE/PROGRAM/Pratical/src/server.js   TO RUN ON WEB
+// TO RUN open terminal in server.js  and: node server.js
 
 const express = require("express");
 const path = require("path");
 const app = express();
 const multer = require("multer");
 const { merging } = require("./merged");
-const upload = multer({ dest: "/Users/DRIVE/PROGRAM/Pratical/uploads" });
+const upload = multer({ dest: path.join(__dirname, "../uploads") });
 
 const port = 8000;
 
@@ -35,5 +35,5 @@ app.post("/merge", upload.array("pdfs", 10), async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port https://localhost:${port}`);
+  console.log(`Example app listening on port http://localhost:${port}`);
 });
