@@ -1,4 +1,6 @@
 node_modules
 .env
-uploads/
-downloads/
+downloads/*
+!downloads/.gitkeep
+uploads/*
+!uploads/.gitkeep
