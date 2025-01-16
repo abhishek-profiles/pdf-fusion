@@ -7,7 +7,11 @@
 body {
   background-image: url(./image/moon2.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  margin: 0;
 }
 
 .navbar {
@@ -23,6 +27,7 @@ body {
 
   font-size: 100%;
   color: white;
+  cursor: pointer;
 }
 
 .navbar li:hover {
@@ -33,12 +38,7 @@ body {
 .info {
   margin-top: 10%;
   text-align: center;
- height: 450px;
-
-
- 
-
-  
+  height: 450px;
 }
 
 .merg {
@@ -51,8 +51,6 @@ body {
   background: #e52127;
   padding: 8px 31px 13px 22px;
   text-decoration: none;
-  
-  
 }
 
 .merg:hover {
@@ -75,7 +73,6 @@ hr {
   background: #4ad221;
   padding: 8px 31px 13px 22px;
   text-decoration: none;
-  
 }
 
 .convert:hover {
@@ -93,7 +90,6 @@ hr {
   background: #c30ed0;
   padding: 8px 31px 13px 22px;
   text-decoration: none;
-  
 }
 
 .compress:hover {
@@ -104,7 +100,7 @@ hr {
 .footer {
   writing-mode: vertical-lr; /* Rotate the text vertically */
   text-align: center;
-  
+
   color: transparent;
   padding: 10px;
 
@@ -141,13 +137,17 @@ hr {
 .footer .social a:hover {
   background: #8377f1;
   text-decoration: none;
+
+  transform: scale(1.2);
+
+  
 }
 
-.list{
+
+.list {
   display: flex;
   justify-content: center;
-  
-  
+  cursor: pointer;
 }
 
 .list ul {
@@ -175,4 +175,3 @@ hr {
 .list ul a:hover {
   opacity: 1;
 }
-
